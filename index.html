@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="group1">
+            <form id="signupForm">
+
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" placeholder="Example@email.com"><br>
+                <span id="emailError" class="error">Make sure email is more than 3 characters and has @ and a .</span><br>
+                <br>
+        
+                <div class="group2">
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" placeholder="Your Password"><br>
+                    <span id="passwordError" class="error">Make sure password is more than 8 characters.</span><br>
+                    
+                </div>
+               <br>
+        
+                <span id="formStatus"></span>
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+                
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
